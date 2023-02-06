@@ -134,9 +134,27 @@ li{
     background-color: aquamarine;
     border: 2px dashed white;
 }
+
+.black-bg{
+    background-color: black;
+}
 .rose-column{
     flex-basis: 30%;
     background-color: salmon;
     border: 2px dashed white;
 }
 
+.flex-container-footer{
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer,.btn-footer{
+    background-color: salmon;
+    height: 25px;
+    border: 2px dashed;
+}
