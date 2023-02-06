@@ -104,3 +104,19 @@ li{
     background-color: lightpink;
     border: 2px dashed;
   }
+
+  /*TERZO BLOCCO*/
+
+  .white-bg{
+    background-color: white;
+  }
+
+  .grey-bg{
+    background-color: lightgrey;
+  }
+
+  .green-column{
+    flex-basis:100%;
+    background-color: green;
+    border: 2px dashed;
+  }
