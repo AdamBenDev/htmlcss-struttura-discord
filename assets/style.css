@@ -53,3 +53,21 @@ ul{
 li{
     margin-right: 2px;
 }
+
+/*PRIMO BLOCCO*/
+
+.first-block-container{
+    background-color: darkblue;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-block-content{
+    background-color: purple;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    border:2px dashed;
+}
