@@ -37,7 +37,6 @@ header{
     height: 40px;
     justify-content: space-evenly;
     border: 2px dashed;
-    margin-top: 5%;
 }
 
 .navbar-button{
@@ -71,3 +70,37 @@ li{
     display: flex;
     border:2px dashed;
 }
+
+/*SECONDO BLOCCO*/
+
+.main-background{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-main{
+    min-width: 900px;
+    height: 250px;
+    display: flex;
+}
+
+.flex-container-main2{
+    min-width: 900px;
+    height: 500px;
+    display: flex;
+    margin: 1%;
+}
+
+.light-blue-column {
+    flex-basis: 60%;
+    background-color: cornflowerblue;
+    border: 2px dashed;
+  }
+
+  .light-pink-column {
+    flex-basis: 40%;
+    background-color: lightpink;
+    border: 2px dashed;
+  }
