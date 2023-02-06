@@ -120,3 +120,23 @@ li{
     background-color: green;
     border: 2px dashed;
   }
+
+  /*FOOTER*/
+  footer{
+    background-color: black;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .green{
+    flex-basis: calc(70% / 4);
+    background-color: aquamarine;
+    border: 2px dashed white;
+}
+.rose-column{
+    flex-basis: 30%;
+    background-color: salmon;
+    border: 2px dashed white;
+}
+
