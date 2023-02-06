@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: skyblue;
+    justify-content: center;
+    display: flex;
+}
+
+.item{
+    background-color: darkgoldenrod;
+    margin: 1%;
+    width: 80%;
+}
+.box-two{
+    background-color: blue;
+    padding: 10rem;
+}
+
+.box-three{
+    background-color: pink;
+    width: 90%;
+}
+
+/*ELEMENTI HEADER*/ 
+.logo{
+    float: left;
+}
+
+.login{
+float: right;
+}
+
