@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+div{
+    display: block;
+}
 body{
     background-color: white;
 }
@@ -70,10 +73,20 @@ body{
 }
 
 .box-footer{
-    background-color: red;
-    width: 70rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    min-width: 900px;
+    height: 250px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.main-background{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
 /*ELEMENTI HEADER*/ 
@@ -101,7 +114,34 @@ float: right;
 
 /*FOOTER*/
 
-.box-left{
-    background-color: pink;
-    width: 70rem;
+
+.footer-zero{
+    flex-basis: 30%;
+    background-color: salmon;
+    border: black;
+    border: solid;
+}
+
+.footer-one{
+    flex-basis: calc(70% / 4);
+    background-color: forestgreen;
+    border: 2px dashed white;
+}
+
+.footer-two{
+    flex-basis: calc(70% / 4);
+    background-color: forestgreen;
+    border: 2px dashed white;
+}
+
+.footer-three{
+    flex-basis: calc(70% / 4);
+    background-color: forestgreen;
+    border: 2px dashed white;
+}
+
+.footer-four{
+    flex-basis: calc(70% / 4);
+    background-color: forestgreen;
+    border: 2px dashed white;
 }
