@@ -19,14 +19,61 @@ body{
     margin: 1%;
     width: 80%;
 }
-.box-two{
+.box-one{
     background-color: blue;
-    padding: 10rem;
+    display: flex;
+    height: 500px;
+    justify-content: center;
 }
 
-.box-three{
+.box-two{
+    background-color: purple;
+    width: 50rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box-3{
+    background-color: white;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.grey{
+    background-color: lightgray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.box-4{
     background-color: pink;
-    width: 90%;
+    width: 70rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.last-box{
+    background-color: green;
+    width: 70rem;
+    height: 70rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grey2{
+    background-color: lightgray;
+    display: flex;
+    height: 75rem;
+    justify-content: center;
+}
+
+.box-footer{
+    background-color: red;
+    width: 70rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /*ELEMENTI HEADER*/ 
@@ -38,3 +85,23 @@ body{
 float: right;
 }
 
+/*ELEMENTS BOX*/
+
+.one{
+    background-color: cornflowerblue;
+    height: 100%;
+    margin-right: 40%;
+}
+
+.two{
+    background-color: cornflowerblue;
+    height: 100%;
+    margin-left: 40%;
+}
+
+/*FOOTER*/
+
+.box-left{
+    background-color: pink;
+    width: 70rem;
+}
